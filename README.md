@@ -48,7 +48,7 @@ WorkerTimeEntryApp.sln: The solution file that includes all the projects and tes
 ### VisualizationHTML
 
 - **Type**: Console Application
-- **Description**: This project demonstrates the use of the shared code to generate an HTML report based on worker time entry data. It uses `SharedCodeLibrary` to process data and generate the HTML file.
+- **Description**: This project demonstrates the use of the shared code to generate an HTML report based on worker time entry data. It uses `SharedCodeLibrary` to process data and generate the HTML file. Resulting HTML file will be in InterviewCSharp\VisualizationHTML\bin\Debug\net8.0 with title 'time_entries.html'.
 
 ### Project2
 
