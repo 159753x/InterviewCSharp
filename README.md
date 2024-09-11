@@ -12,11 +12,11 @@ WorkerTimeEntryApp/
 │   ├── VisualizationHTML/          // First C# project | Console Application
 │   │   ├── Program.cs              // Entry point
 │   │   ├── VisualizationHTML.csproj
-│   │   └── Dependencies
-│   ├── Project2/                   // Second C# project (e.g., another Console Application or different functionality)
+│   │   └── (Other VisualizationHTML files)
+│   ├── VisualizationPNG/                   // Second C# project Console App
 │   │   ├── Program.cs              // Entry point
-│   │   ├── Project2.csproj
-│   │   └── (Other Project2 files)
+│   │   ├── VisualizationPNG.csproj
+│   │   └── (Other VisualizationPNG files)
 │   └── SharedCodeLibrary/          // Shared code module with common logic
 │       ├── SharedCode.csproj       // Project file for the shared code library
 │       ├── Model/
@@ -27,6 +27,8 @@ WorkerTimeEntryApp/
 |       |   └── GeneratingDataHTMLTaskController.cs
 |       |   └── GeneratingHTMLContentController.cs
 |       |   └── HtmlFileController.cs  // Generates HTML file for data visualization
+|       |   └── GenerateDataPNG.cs
+|       |   └── ImagePNGController.cs  // Generates PNG file for data visualization
 │       └── View/
 │           
 └── WorkerTimeEntryApp.sln          // Solution file
@@ -36,12 +38,12 @@ src/: Contains the source code for all projects in the solution.
 
 VisualizationHTML/: The first application project.
 
-Project2/: The second application project.
-SharedCode/: A class library project containing shared models, controllers, and views used by both VisualizationHTML/ and Project2.
+VisualizationPNG/: The second application project.
+SharedCode/: A class library project containing shared models, controllers, and views used by both VisualizationHTML/ and VisualizationPNG.
 
 WorkerTimeEntryApp.sln: The solution file that includes all the projects and test projects.
 
-#### Also View module is empty because It was logical for me to put making of static HTML file as a controller as it's only for representation of data and it's not rendering like a front-end service.
+#### Also View module is empty because It was logical for me to put making of static HTML file or PNG file as a controller as it's only for representation of data and it's not rendering like a front-end service.
 
 ## Solution Description
 
@@ -50,16 +52,16 @@ WorkerTimeEntryApp.sln: The solution file that includes all the projects and tes
 - **Type**: Console Application
 - **Description**: This project demonstrates the use of the shared code to generate an HTML report based on worker time entry data. It uses `SharedCodeLibrary` to process data and generate the HTML file. Resulting HTML file will be in InterviewCSharp\VisualizationHTML\bin\Debug\net8.0 with title 'time_entries.html'.
 
-### Project2
+### VisualizationPNG
 
 - **Type**: Console Application
-- **Description**: This project may serve a different purpose or functionality but also utilizes the shared code module for consistent data handling and HTML generation.
+- **Description**: This project demonstrates the use of the shared code to generate an HTML report based on worker time entry data in form of Pie Chart on PNG image file. It uses `SharedCodeLibrary` to process data and generate the PNG file. Resulting PNG file will be in InterviewCSharp\VisualizationPNG\bin\Debug\net8.0 with title 'PieChart.png'.
 
 ### SharedCode
 
 - **Type**: Class Library
-- **Description**: This module contains the shared code used by both `VisualizationHTML` and `Project2`. It includes models, controllers, and views related to worker time entry data.
-- **Dependencies**: This library depends on Newtonsoft.Json package which can be downloaded and installed through VS or through cmd (for Windows)
+- **Description**: This module contains the shared code used by both `VisualizationHTML` and `VisualizationPNG`. It includes models, controllers, and views related to worker time entry data.
+- **Dependencies**: This library depends on Newtonsoft.Json package which can be downloaded and installed through VS or through cmd (for Windows) and on System.Drawing.Common (it is installed in same way as Newtonsoft.Json)
     #### Description on how to install it:
     _Method 1: Using Visual Studio's NuGet Package Manager_
   
