@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualizationHTML", "Visual
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedCodeLibrary", "SharedCodeLibrary\SharedCodeLibrary.csproj", "{246F4FCE-1928-4CA9-B0A6-D24EC97870D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualizationPNG", "VisualizationPNG\VisualizationPNG.csproj", "{2DC5D5DF-ED0F-4747-BE65-DF08817E81DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{246F4FCE-1928-4CA9-B0A6-D24EC97870D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{246F4FCE-1928-4CA9-B0A6-D24EC97870D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{246F4FCE-1928-4CA9-B0A6-D24EC97870D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DC5D5DF-ED0F-4747-BE65-DF08817E81DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DC5D5DF-ED0F-4747-BE65-DF08817E81DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DC5D5DF-ED0F-4747-BE65-DF08817E81DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DC5D5DF-ED0F-4747-BE65-DF08817E81DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
