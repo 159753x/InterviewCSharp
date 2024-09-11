@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualizationHTML", "VisualizationHTML\VisualizationHTML.csproj", "{6A36FA65-5ADE-442E-9B5F-352A893C0F40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedCodeLibrary", "SharedCodeLibrary\SharedCodeLibrary.csproj", "{246F4FCE-1928-4CA9-B0A6-D24EC97870D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A36FA65-5ADE-442E-9B5F-352A893C0F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A36FA65-5ADE-442E-9B5F-352A893C0F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A36FA65-5ADE-442E-9B5F-352A893C0F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A36FA65-5ADE-442E-9B5F-352A893C0F40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{246F4FCE-1928-4CA9-B0A6-D24EC97870D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{246F4FCE-1928-4CA9-B0A6-D24EC97870D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{246F4FCE-1928-4CA9-B0A6-D24EC97870D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{246F4FCE-1928-4CA9-B0A6-D24EC97870D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61823275-A221-49F4-AB29-5A9186496F06}
+	EndGlobalSection
+EndGlobal
